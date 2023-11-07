@@ -5,8 +5,8 @@
     import navItems from "./nav-items.json";
 </script>
 
-<div class="flex bg-blue-400 text-white w-100 items-center p-5">
-    <a href="/" class="bg-white px-5 rounded-xl scale-on-hover w-32 flex justify-center">
+<div class="flex bg-blue-800 text-white w-100 items-center p-5">
+    <a href="/" class="bg-white px-5 rounded-2xl hover:rounded-md scale-on-hover w-32 flex justify-center">
         <img alt="ge0-favicon" class="h-14 object-contain" src="/favicon.png" />
     </a>
     <nav class="h-full ms-9 w-full">
