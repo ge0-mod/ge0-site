@@ -7,7 +7,7 @@
 }
 
 .nav-item {
-    @apply flex me-6 hover:text-blue-100 hover:scale-110 hover:me-8;
+    @apply flex me-6 hover:scale-110 hover:me-8;
     transition: 200ms ease-in-out;
 }
 

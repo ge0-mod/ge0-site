@@ -4,9 +4,13 @@
     export let iconD: string;
 </script>
 
-<li class="nav-item">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d={iconD} />
-    </svg>
-    <a href={href}>{title}</a>
-</li>
+<a href={href} class="d-flex">
+    <li class="nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d={iconD} />
+        </svg>
+        <span>
+            {title}
+        </span>
+    </li>
+</a>
