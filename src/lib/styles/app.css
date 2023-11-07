@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scale-on-hover {
+    @apply transition hover:scale-105;
+}
+
+.nav-item {
+    @apply flex me-6 hover:text-blue-100 hover:scale-110 hover:me-8;
+    transition: 200ms ease-in-out;
+}
+
+.nav-item svg {
+    @apply me-2
+}
+
+.expand-menu-btn {
+    @apply me-3 hidden;
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav-item {
+        display: none;
+    }
+
+    .expand-menu-btn {
+        @apply block;
+    }
+
+}

@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "href": "#about",
+            "title": "О нас",
+            "d": "about"
+        },
+        {
+            "href": "#news",
+            "title": "Новости",
+            "d": "news"
+        },
+        {
+            "href": "/order",
+            "title": "Заказать",
+            "d": "order"
+        }
+    ]
+}
