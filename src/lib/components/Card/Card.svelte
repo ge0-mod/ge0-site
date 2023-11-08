@@ -2,11 +2,12 @@
 // @ts-nocheck
 	import CardTitle from "./CardTitle.svelte";
     import iconsD from "../iconsD.json";
+    import '$lib/styles/card.css';
 
     export let icon: string;
     export let title: string;
 </script>
-<div class="m-8 p-8 bg-white border-gray-500 rounded-lg border border-opacity-20 shadow-blue-100 shadow-md transition hover:bg-blue-50">
+<div class="card">
     <CardTitle>
         <svg 
             xmlns="http://www.w3.org/2000/svg" 

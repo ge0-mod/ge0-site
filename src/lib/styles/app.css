@@ -3,33 +3,9 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
+    @apply scroll-smooth;
 }
 
 .scale-on-hover {
     @apply transition hover:scale-105;
-}
-
-.nav-item {
-    @apply flex transition me-6 hover:text-blue-800 text-lg hover:-translate-y-0.5;
-}
-
-.nav-item svg {
-    @apply me-2;
-}
-
-.expand-menu-btn {
-    @apply me-3 hidden;
-}
-
-@media screen and (max-width: 600px) {
-
-    .nav-item {
-        display: none;
-    }
-
-    .expand-menu-btn {
-        @apply block;
-    }
-
 }

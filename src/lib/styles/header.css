@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item {
+    @apply flex transition me-6 hover:text-blue-800 text-xl hover:-translate-y-0.5;
+}
+
+.nav-item svg {
+    @apply me-2;
+}
+
+.expand-menu-btn {
+    @apply me-3 hidden;
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav-item {
+        @apply hidden;
+    }
+
+    .expand-menu-btn {
+        @apply block;
+    }
+
+}

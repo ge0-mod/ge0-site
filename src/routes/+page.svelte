@@ -3,8 +3,8 @@
 
     let testInfo: Array<string> = [];
 
-    for (let i = 0; i < 10; i++) {
-        testInfo = [...testInfo, "test info test info test info test info test info test info test info test info test info test info"];
+    for (let i = 0; i < 5; i++) {
+        testInfo = [...testInfo, "Test info/// test info test info test info test info... test info test info test info test info// test info"];
     }
 </script>
 

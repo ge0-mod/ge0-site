@@ -3,11 +3,12 @@
 	import NavItem from "./NavItem.svelte";
     import iconsD from "../iconsD.json";
     import navItems from "./nav-items.json";
+    import '$lib/styles/navbar.css';
 
     export let mobileNavbarOpen = false;
 </script>
 
-<div class="flex bg-gradient-to-r from-blue-50 to-blue-200 bg-white text-black w-100 items-center p-5 fixed top-0 w-screen shadow-md">
+<div class="navbar">
     <a href="/" class="bg-white px-5 rounded-2xl hover:rounded-md scale-on-hover w-32 flex justify-center">
         <img alt="ge0-favicon" class="h-14 object-contain" src="/favicon.png" />
     </a>
