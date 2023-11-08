@@ -1,12 +1,12 @@
 {
     "items": [
         {
-            "href": "#about",
+            "href": "/#about",
             "title": "О нас",
             "d": "about"
         },
         {
-            "href": "#news",
+            "href": "/#news",
             "title": "Новости",
             "d": "news"
         },

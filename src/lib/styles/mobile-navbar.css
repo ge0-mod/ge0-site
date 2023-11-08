@@ -1,0 +1,32 @@
+.mobile-navbar {
+    @apply block fixed left-0 bottom-0 w-screen bg-white p-5;
+    height: calc(50%);
+    z-index: 11;
+}
+
+.mobile-navbar .nav-item {
+    display: flex;
+}
+
+.close-btn {
+    position: absolute;
+    right: 1.25rem;
+    top: 1.25rem;
+}
+
+.backdrop {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 600px) {
+    .mobile-navbar {
+        display: none;
+    }
+}

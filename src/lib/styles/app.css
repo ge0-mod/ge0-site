@@ -2,17 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behaviour: smooth;
+}
+
 .scale-on-hover {
     @apply transition hover:scale-105;
 }
 
 .nav-item {
-    @apply flex me-6 hover:scale-110 hover:me-8 text-lg;
-    transition: 200ms ease-in-out;
+    @apply flex transition me-6 hover:text-blue-300 text-lg;
 }
 
 .nav-item svg {
-    @apply me-2
+    @apply me-2;
 }
 
 .expand-menu-btn {
