@@ -7,7 +7,7 @@
     export let mobileNavbarOpen = false;
 </script>
 
-<div class="flex bg-gradient-to-r from-blue-800 to-blue-600 text-white w-100 items-center p-5 fixed top-0 w-screen">
+<div class="flex bg-gradient-to-r bg-white text-black w-100 items-center p-5 fixed top-0 w-screen shadow-md">
     <a href="/" class="bg-white px-5 rounded-2xl hover:rounded-md scale-on-hover w-32 flex justify-center">
         <img alt="ge0-favicon" class="h-14 object-contain" src="/favicon.png" />
     </a>
