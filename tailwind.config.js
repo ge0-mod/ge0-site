@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Raleway', ...defaultTheme.fontFamily.sans]
+        sans: ['Wix Madefor Display', ...defaultTheme.fontFamily.sans]
       }
     }
   },

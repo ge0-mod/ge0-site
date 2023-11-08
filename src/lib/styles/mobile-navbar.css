@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .mobile-navbar {
     @apply block fixed left-0 bottom-0 w-screen bg-white p-5;
     height: calc(50%);

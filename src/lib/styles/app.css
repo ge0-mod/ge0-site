@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 
 .scale-on-hover {
@@ -11,7 +11,7 @@ html {
 }
 
 .nav-item {
-    @apply flex transition me-6 hover:text-blue-300 text-lg;
+    @apply flex transition me-6 hover:text-blue-200 text-lg;
 }
 
 .nav-item svg {

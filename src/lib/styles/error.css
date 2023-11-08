@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error-message {
+    @apply text-center mt-48 font-bold text-3xl;
+}

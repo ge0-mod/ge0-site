@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "href": "/#about",
+            "href": "/",
             "title": "О нас",
             "d": "about"
         },
