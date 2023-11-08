@@ -5,17 +5,13 @@
 .card {
     @apply m-8 p-8 bg-white 
         border-gray-500 rounded-lg border border-opacity-20 
-        shadow-blue-100 shadow-md 
-        transition hover:bg-blue-50
+        shadow-blue-100 shadow-md hover:shadow-lg hover:shadow-blue-100
+        transition
         text-lg;
 }
 
 .card-title {
     @apply text-center text-4xl font-bold flex w-full justify-center items-center transition;
-}
-
-.card:hover .card-title {
-    @apply scale-105;
 }
 
 @media screen and (max-width: 600px) {
