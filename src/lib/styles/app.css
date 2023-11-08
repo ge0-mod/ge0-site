@@ -11,7 +11,7 @@ html {
 }
 
 .nav-item {
-    @apply flex transition me-6 hover:text-blue-800 text-lg;
+    @apply flex transition me-6 hover:text-blue-800 text-lg hover:-translate-y-0.5;
 }
 
 .nav-item svg {
