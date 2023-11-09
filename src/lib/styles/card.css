@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .card {
-    @apply m-8 p-8 bg-white 
+    @apply m-8 mt-20 p-8 bg-white 
         border-gray-500 rounded-lg border border-opacity-20 
         shadow-blue-100 shadow-md hover:shadow-lg hover:shadow-blue-100
         transition

@@ -8,8 +8,8 @@
     export let mobileNavbarOpen = false;
 </script>
 
-<div class="navbar">
-    <a href="/" class="bg-white px-5 rounded-2xl hover:rounded-md scale-on-hover w-32 flex justify-center">
+<div class="navbar glassmorphism">
+    <a href="/" class="px-5 rounded-2xl hover:rounded-md scale-on-hover w-32 flex justify-center">
         <img alt="ge0-favicon" class="h-14 object-contain" src="/favicon.png" />
     </a>
     <nav class="h-full ms-9 w-full">

@@ -9,3 +9,9 @@ html {
 .scale-on-hover {
     @apply transition hover:scale-105;
 }
+
+.glassmorphism {
+    background: rgb(242 244 255 / 85%);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+}

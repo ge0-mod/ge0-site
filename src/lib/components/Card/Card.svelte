@@ -19,7 +19,7 @@
         </svg>
         {title}
     </CardTitle>
-    <div class="mt-14 flex card-contain">
+    <div class="mt-14 card-contain">
         <slot />
     </div> 
 </div>
