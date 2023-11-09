@@ -7,16 +7,37 @@
         border-gray-500 rounded-lg border border-opacity-20 
         shadow-blue-100 shadow-md hover:shadow-lg hover:shadow-blue-100
         transition
-        text-lg;
+        text-xl;
 }
 
 .card-title {
-    @apply text-center text-4xl font-bold flex w-full justify-center items-center transition;
+    @apply text-center text-5xl font-bold flex w-full justify-center items-center transition;
+}
+
+.card-text {
+    @apply w-1/2 ms-7;
+}
+
+.card-contain {
+    @apply justify-evenly;
+}
+
+.card-image img {
+    @apply object-cover w-full h-full rounded-lg;
 }
 
 @media screen and (max-width: 600px) {
     .card {
         @apply mx-3 px-3;
+    }
+
+    .card-contain {
+        @apply flex-col;
+        margin-top: 0.75rem!important;
+    }
+
+    .card-contain .card-text {
+        @apply w-11/12 mt-3 m-2;
     }
 
     .card-title {

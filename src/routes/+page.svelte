@@ -4,7 +4,7 @@
     let testInfo: Array<string> = [];
 
     for (let i = 0; i < 5; i++) {
-        testInfo = [...testInfo, "Test info/// test info test info test info test info... test info test info test info test info// test info"];
+        testInfo = [...testInfo, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque neque ac tristique gravida."];
     }
 </script>
 
@@ -14,11 +14,21 @@
 
 <dummy id="about" />
 <Card title="О нас" icon="about">
-    { testInfo }
+    <div class="card-image">
+        <img alt="example" src="/example.jpg" />
+    </div>
+    <div class="card-text">
+        { testInfo }
+    </div>
 </Card>
 
 
 <dummy id="news" />
 <Card title="Новости" icon="news">
-    { testInfo }
+    <div class="card-image">
+        <img alt="example1" src="/example1.jpg" />
+    </div>
+    <div class="card-text">
+        { testInfo }
+    </div>
 </Card>
