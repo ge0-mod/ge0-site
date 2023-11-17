@@ -20,7 +20,7 @@
 <dummy id="about" />
 <Card title="О нас" icon="about">
     <div class="flex card-contain">
-        <div class="card-image">
+        <div class="card-image w-80">
             <img alt="example" src="/example.jpg" />
         </div>
         <div class="card-text">
