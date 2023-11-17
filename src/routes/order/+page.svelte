@@ -5,7 +5,7 @@
 
 
 <!-- svelte-ignore a11y-media-has-caption -->
-<video src="/vernam.mp4" autoplay></video>
+<video src="/jesus_christ.mp4" autoplay></video>
 
 <Card title="Заказать" icon="order">
     <form class="order-form">
