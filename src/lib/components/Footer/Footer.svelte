@@ -8,8 +8,5 @@
         <div class="font-bold">
             Ge0 Team &copy;, { new Date().getFullYear() }
         </div>
-        <div class="mt-4 text-gray-400">
-            Веб-сайт от Relative и Partur.
-        </div>
     </div>
 </div>
